@@ -239,6 +239,8 @@ ClientBin/
 *.pfx
 *.publishsettings
 orleans.codegen.cs
+*.pub
+
 
 # Including strong name files can present a security risk
 # (https://github.com/github/gitignore/pull/2483#issue-259490424)
@@ -396,3 +398,126 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+
+
+# New
+*.py[cod]
+*$py.class
+*.egg-info
+*.log
+*.pot
+.DS_Store
+.coverage/
+.eggs/
+.idea/
+.project/
+.pydevproject/
+.vscode/
+.settings/
+.tox/
+__pycache__/
+build/
+dist/
+env/
+
+# File and Folder
+id_rsa/
+*.id_rsa
+
+/~
+/node_modules
+.sass-cache
+*.css.map
+npm-debug.log
+
+local.sqlite
+
+# C extensions
+*.so
+
+# distribution / packaging
+.Python
+downloads/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# unit test / coverage reports
+htmlcov/
+.cache
+nosetests.xml
+*.cover
+.coverage
+.hypothesis/
+
+# Translations
+*.mo
+
+# django
+.static_storage/
+.media/
+local_settings.py
+
+# flask
+instance/
+.webassets-cache
+.scrapy
+
+# sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# environments
+.env
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+env
+
+# spyder project settings
+.spyderproject
+.spyproject
+
+# rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+!djangocms_text_ckeditor/static/djangocms_text_ckeditor/js/dist
