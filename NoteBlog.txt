@@ -1,0 +1,12 @@
+Building a Blog Application
+----- This chapter will cover the following topics:
+• Installing Python
+• Creating a Python virtual environment
+• Installing Django
+• Creating and configuring a Django project
+
+• Building a Django application
+• Designing data models
+• Creating and applying model migrations
+• Setting up an administration site for your models
+• Working with QuerySets and model managers
