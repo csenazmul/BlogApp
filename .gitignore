@@ -424,6 +424,7 @@ env/
 # File and Folder
 id_rsa/
 *.id_rsa
+*.docx
 
 /~
 /node_modules
