@@ -10,3 +10,4 @@ Building a Blog Application
 • Creating and applying model migrations
 • Setting up an administration site for your models
 • Working with QuerySets and model managers
+
