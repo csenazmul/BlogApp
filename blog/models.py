@@ -7,6 +7,13 @@ from django.conf import settings
 # from django.db.models.functions import Now  
 # Create your models here.
 
+
+class PublishedManager(models.Manager):
+    def get_queryset(self):
+        return (
+            super().get_queryset().filter(status=Post.Status.PUBLISHED)
+        )
+
 class Post(models.Model):
 
     class Status(models.TextChoices):
@@ -33,6 +40,9 @@ class Post(models.Model):
         choices=Status,
         default=Status.DRAFT
     )
+
+    objects = models.Manager() # the default manager
+    published = PublishedManager() # Our custom manager
 
     class Meta:
         ordering = ['-publish']
